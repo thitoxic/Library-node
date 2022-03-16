@@ -1,1 +1,11 @@
-middle
+<h2>Recently Added</h2>
+<div>
+    <% books.map(book => { %>
+      <h1><%= book.title %></h1>
+      <!-- <h><%= book.author.toString() %></h1> -->
+          <h3><%= book.description %></h3>
+      <h4><%= book.publishDate %></h4>
+      
+    
+    <% }) %>
+  </div>
